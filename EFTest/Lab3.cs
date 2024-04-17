@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace EFTest
 {
-    public partial class Form3 : Form
+    public partial class Lab3 : Form
     {
-        public Form3()
+        public Lab3()
         {
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void Lab3_Load(object sender, EventArgs e)
         {
             using (var classicContext = new classicmodelsEntities())
             {

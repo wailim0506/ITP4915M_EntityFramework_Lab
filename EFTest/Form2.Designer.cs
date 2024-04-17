@@ -66,6 +66,7 @@ namespace EFTest
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(125, 316);
             this.listBox4.TabIndex = 3;
+            this.listBox4.SelectedIndexChanged += new System.EventHandler(this.listBox4_SelectedIndexChanged);
             // 
             // Form2
             // 

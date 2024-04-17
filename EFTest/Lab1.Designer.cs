@@ -1,7 +1,7 @@
 ﻿
 namespace EFTest
 {
-    partial class Form1
+    partial class Lab1
     {
         /// <summary>
         /// Required designer variable.
@@ -33,10 +33,10 @@ namespace EFTest
             this.employeeNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firstName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtLab1 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.btnInsert = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtLab1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLab1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,10 +47,10 @@ namespace EFTest
             this.employeeNumber,
             this.lastName,
             this.firstName});
-            this.dgvLab1.Location = new System.Drawing.Point(43, 45);
+            this.dgvLab1.Location = new System.Drawing.Point(80, 59);
             this.dgvLab1.Name = "dgvLab1";
             this.dgvLab1.Size = new System.Drawing.Size(343, 393);
-            this.dgvLab1.TabIndex = 0;
+            this.dgvLab1.TabIndex = 5;
             // 
             // employeeNumber
             // 
@@ -67,54 +67,54 @@ namespace EFTest
             this.firstName.HeaderText = "FirstName";
             this.firstName.Name = "firstName";
             // 
-            // txtLab1
-            // 
-            this.txtLab1.Location = new System.Drawing.Point(43, 19);
-            this.txtLab1.Name = "txtLab1";
-            this.txtLab1.Size = new System.Drawing.Size(245, 20);
-            this.txtLab1.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(43, 457);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(343, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Location = new System.Drawing.Point(311, 19);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
-            this.btnUpdate.TabIndex = 3;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
-            // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(630, 352);
+            this.btnInsert.Location = new System.Drawing.Point(477, 363);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(75, 23);
-            this.btnInsert.TabIndex = 4;
+            this.btnInsert.TabIndex = 9;
             this.btnInsert.Text = "Insert";
             this.btnInsert.UseVisualStyleBackColor = true;
             this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
-            // Form1
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(348, 33);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 8;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(80, 471);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(343, 20);
+            this.textBox1.TabIndex = 7;
+            // 
+            // txtLab1
+            // 
+            this.txtLab1.Location = new System.Drawing.Point(80, 33);
+            this.txtLab1.Name = "txtLab1";
+            this.txtLab1.Size = new System.Drawing.Size(245, 20);
+            this.txtLab1.TabIndex = 6;
+            this.txtLab1.TextChanged += new System.EventHandler(this.txtLab1_TextChanged);
+            // 
+            // Lab1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 550);
+            this.ClientSize = new System.Drawing.Size(634, 514);
+            this.Controls.Add(this.dgvLab1);
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtLab1);
-            this.Controls.Add(this.dgvLab1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "Lab1";
+            this.Text = "Lab1";
+            this.Load += new System.EventHandler(this.Lab1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLab1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -127,10 +127,9 @@ namespace EFTest
         private System.Windows.Forms.DataGridViewTextBoxColumn employeeNumber;
         private System.Windows.Forms.DataGridViewTextBoxColumn lastName;
         private System.Windows.Forms.DataGridViewTextBoxColumn firstName;
-        private System.Windows.Forms.TextBox txtLab1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnInsert;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtLab1;
     }
 }
-

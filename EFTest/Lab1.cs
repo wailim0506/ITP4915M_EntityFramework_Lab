@@ -10,15 +10,15 @@ using System.Windows.Forms;
 
 namespace EFTest
 {
-    public partial class Form1 : Form
+    public partial class Lab1 : Form
     {
-        public Form1()
+        public Lab1()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {   
+        private void Lab1_Load(object sender, EventArgs e)
+        {
             using (var classicContext = new classicmodelsEntities())
             {
                 //Select All
@@ -32,17 +32,15 @@ namespace EFTest
 
                 //Select Filter
                 var empQuery = from list in classicContext.employees
-                                where list.lastName == "Bow"    //.Contains("Bow") 
-                                select list;
+                               where list.lastName == "Bow"    //.Contains("Bow") 
+                               select list;
 
                 var empName = empQuery.FirstOrDefault<employees>();
                 txtLab1.Text = empName.firstName;
             }
-
-            
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void txtLab1_TextChanged(object sender, EventArgs e)
         {
             using (var classContext = new classicmodelsEntities())
             { //keyword search
@@ -59,7 +57,7 @@ namespace EFTest
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
-        {   
+        {
             //Update Record
             using (var classicContext = new classicmodelsEntities())
             {
