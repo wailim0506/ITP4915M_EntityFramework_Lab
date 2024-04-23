@@ -40,9 +40,10 @@ namespace EFTest
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(32, 145);
+            this.button1.Location = new System.Drawing.Point(64, 279);
+            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 46);
+            this.button1.Size = new System.Drawing.Size(214, 88);
             this.button1.TabIndex = 0;
             this.button1.Text = "Lab1";
             this.button1.UseVisualStyleBackColor = true;
@@ -51,9 +52,10 @@ namespace EFTest
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(187, 145);
+            this.button2.Location = new System.Drawing.Point(374, 279);
+            this.button2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 46);
+            this.button2.Size = new System.Drawing.Size(214, 88);
             this.button2.TabIndex = 1;
             this.button2.Text = "Lab2";
             this.button2.UseVisualStyleBackColor = true;
@@ -62,9 +64,10 @@ namespace EFTest
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(260, 226);
+            this.button3.Location = new System.Drawing.Point(520, 435);
+            this.button3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 46);
+            this.button3.Size = new System.Drawing.Size(214, 88);
             this.button3.TabIndex = 2;
             this.button3.Text = "Lab5";
             this.button3.UseVisualStyleBackColor = true;
@@ -73,9 +76,10 @@ namespace EFTest
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(116, 226);
+            this.button4.Location = new System.Drawing.Point(232, 435);
+            this.button4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(107, 46);
+            this.button4.Size = new System.Drawing.Size(214, 88);
             this.button4.TabIndex = 3;
             this.button4.Text = "Lab4";
             this.button4.UseVisualStyleBackColor = true;
@@ -84,9 +88,10 @@ namespace EFTest
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(333, 145);
+            this.button5.Location = new System.Drawing.Point(666, 279);
+            this.button5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(107, 46);
+            this.button5.Size = new System.Drawing.Size(214, 88);
             this.button5.TabIndex = 4;
             this.button5.Text = "Lab3";
             this.button5.UseVisualStyleBackColor = true;
@@ -96,23 +101,25 @@ namespace EFTest
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(40, 34);
+            this.label1.Location = new System.Drawing.Point(80, 65);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 75);
+            this.label1.Size = new System.Drawing.Size(456, 144);
             this.label1.TabIndex = 5;
             this.label1.Text = "Name: Fung Wai Lim\r\nStudentID: 230070312\r\nClass: IT114105 - 1D";
             // 
             // Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 298);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(192F, 192F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.ClientSize = new System.Drawing.Size(914, 573);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Menu";
             this.Text = "Menu";
             this.ResumeLayout(false);
